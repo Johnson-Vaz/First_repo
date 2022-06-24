@@ -29,7 +29,6 @@ Note: The corresponding handler is onExited.
 
 positionChanged(DragEvent drag)
 
-This signal is emitted when the position of a drag has changed.
 
 Note: The corresponding handler is onPositionChanged.
 Using Git with Command Line
