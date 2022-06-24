@@ -1,0 +1,35 @@
+This property holds a list of drag keys a DropArea will accept.
+
+If no keys are listed the DropArea will accept events from any drag source, otherwise the drag source must have at least one compatible key.
+
+See also QtQuick::Drag::keys.
+
+
+Signal Documentation
+dropped(DragEvent drop)
+
+This signal is emitted when a drop event occurs within the bounds of a DropArea.
+
+Note: The corresponding handler is onDropped.
+
+
+entered(DragEvent drag)
+
+This signal is emitted when a drag enters the bounds of a DropArea.
+
+Note: The corresponding handler is onEntered.
+
+
+exited()
+
+This signal is emitted when a drag exits the bounds of a DropArea.
+
+Note: The corresponding handler is onExited.
+
+
+positionChanged(DragEvent drag)
+
+This signal is emitted when the position of a drag has changed.
+
+Note: The corresponding handler is onPositionChanged.
+
