@@ -1,0 +1,56 @@
+hey there this is changed 
+
+If no keys are listed the DropArea will accept events from any drag source, otherwise the drag source must have at least one compatible key.
+
+See also QtQuick::Drag::keys.
+
+
+Signal Documentation
+dropped(DragEvent drop)
+
+This signal is emitted when a drop event occurs within the bounds of a DropArea.
+
+Note: The corresponding handler is onDropped.
+
+
+entered(DragEvent drag)
+
+This signal is emitted when a drag enters the bounds of a DropArea.
+
+Note: The corresponding handler is onEntered.
+
+
+exited()
+
+This signal is emitted when a drag exits the bounds of a DropArea.
+
+Note: The corresponding handler is onExited.
+
+
+positionChanged(DragEvent drag)
+
+
+Note: The corresponding handler is onPositionChanged.
+Using Git with Command Line
+To start using Git, we are first going to open up our Command shell.
+
+For Windows, you can use Git bash, which comes included in Git for Windows. For Mac and Linux you can use the built-in terminal.
+
+The first thing we need to do, is to check if Git is properly installed:
+
+Example
+git --version
+git version 2.30.2.windows.1
+If Git is installed, it should show something like git version X.Y
+
+Configure Git
+Now let Git know who you are. This is important for version control systems, as each Git commit uses this information:
+
+Example
+git config --global user.name "w3schools-test"
+git config --global user.email "test@w3schools.com"
+Change the user name and e-mail address to your own. You will probably also want to use this when registering to GitHub later on.
+
+Note: Use global to set the username and e-mail for every repository on your computer.
+
+
